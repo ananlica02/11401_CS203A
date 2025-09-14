@@ -10,5 +10,4 @@
      <summary> 開學時期畫的作品點此展開（期望期末能畫得更好！）</summary>
        <img width="461" height="550" alt="image" src="https://github.com/user-attachments/assets/63ca17ba-dfc3-444b-83b7-8f25dccde028" />
        <img width="329" height="399" alt="image" src="https://github.com/user-attachments/assets/a20351da-3016-4828-b369-6ed8b5899b41" />
-     :::
      </details>
