@@ -13,7 +13,6 @@
 
    Developer: Yu-Feng Huang <yfhuang@saturn.yzu.edu.tw>
  */
-
 #include <iostream>
 #include <vector>
 #include <string>
