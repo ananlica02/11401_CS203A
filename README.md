@@ -1,3 +1,10 @@
+# 【20251122】Design a C Version of Hash Function and Categorizing Different Languages in Assiginment_V
+- 新增檔案：hash_fn.c, hash_fn.h, main.c, Assignment_IV_C.exe
+- 調整檔案：Assignment_IV.exe -> Assignment_IV_CPP.exe
+  - Assignment_IV_CPP.exe：同樣作為作業四，為了區分C語言與C++的執行檔，故改名以便辨識
+
+---
+
 # 【20251122】Update Work Log
 - 調整檔案：README.md
   - README.md：設計工作紀錄架構，以便於理解每個Commit做了甚麼更動

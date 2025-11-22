@@ -28,6 +28,8 @@ int myHashInt(int key, int m) {
 
 int myHashString(const std::string& str, int m) {
     unsigned long hash = 0;
+
+    if( str = NULL )    return 0;
     
     // 不分大小寫，把所有字母的數字相加
     for( int i = 0; i < str.length(); i++ ){
