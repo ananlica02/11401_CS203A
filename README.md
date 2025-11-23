@@ -1,6 +1,12 @@
 # Work Log
 ---
 
+## 【20251123】Add Assignment_IV Describe File
+- 新增檔案：Makefile.bat, Makefile.md, README_template.md, README.md, VSCode.md
+- 備註：
+  1. 為後續說明資料夾內學習歷程，先匯入老師提供的紀錄模板
+---
+
 ## 【20251123】Design Second Hash Function
 - 調整檔案：hash_fn_2.cpp hash_fn_2.c
   - hash_fn_2.cpp hash_fn_2.c：完成Hash function設計
