@@ -1,6 +1,12 @@
 # Work Log
 ---
 
+## 【20251123】Design Second Hash Function
+- 調整檔案：hash_fn_2.cpp hash_fn_2.c
+  - hash_fn_2.cpp hash_fn_2.c：完成Hash function設計
+- 新增檔案：Assignment_IV_C_2.exe, Assignment_IV_CPP_2.exe
+---
+
 ## 【20251123】Add Assignment_I and Distinguishing Hash Function Code
 - 新增檔案：Persional_Information, hash_fn_2.cpp hash_fn_2.c
   - Persional_Information：將原本在根目錄中的README.md寫的Persional Information獨立出來
@@ -23,7 +29,8 @@
 ---
 
 ## 【20251122】Design a C++ Version of Hash Function
-- 調整檔案：hash_fn.cpp  - hash_fn.cpp：完成Hash Function設計
+- 調整檔案：hash_fn.cpp  
+  - hash_fn.cpp：完成Hash Function設計
 - 新增檔案：Assignment_IV.exe
 ---
 
