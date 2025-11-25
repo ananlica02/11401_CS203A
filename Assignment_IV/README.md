@@ -64,14 +64,11 @@ Email: a072007221030@gmail.com
 ### Compilation
 - The project uses a comprehensive Makefile that builds both C and C++ versions with proper flags:
   ```bash
-  # Build both C and C++ versions
-  make all
-  
   # Build only C version
-  make c
+  "gcc .\Assignment_IV\C\hash_fn_2.c .\Assignment_IV\C\hash_fn.h .\Assignment_IV\C\main.c -o Assignment_IV_C_2.exe" 
   
   # Build only C++ version
-  make cxx
+  "g++ -g .\Assignment_IV\C\hash_fn_2.c .\Assignment_IV\C\hash_fn.h .\Assignment_IV\C\main.c -o Assignment_IV_C_2.exe"
   ```
 
 ### Manual Compilation (if needed)
@@ -353,11 +350,27 @@ Email: a072007221030@gmail.com
 - Observations: Outputs align with the analysis, showing better distribution with prime table sizes.
 
 ## Analysis
-- Prime vs non-prime `m`: Prime table sizes generally result in better distribution and fewer collisions.
-- Patterns or collisions: Non-prime table sizes tend to produce repetitive patterns, leading to more collisions.
-- Improvements: Use a prime table size and a well-designed hash function to enhance distribution.
+- $非質數m$(10)：
+  容易產生碰撞
+- $質數m$(11, 37)：
+  - 能分布的更散
+  - 尤其$m=37$時，因Hash table的大小較大，能分布得更加散
+- 為何第二個Hash function是更好的？
+  - (整數)因透過乘以大質數來進行數字的攪拌，能讓數據變得更分散
+  - (字串)使用權重$P^i$，使每個字元的數值能更加分散
 
 ## Reflection
-1. Designing hash functions requires balancing simplicity and effectiveness to minimize collisions.
-2. Table size significantly impacts the uniformity of the hash distribution, with prime sizes performing better.
-3. The design using a prime table size and a linear transformation formula produced the most uniform index sequence.
+- 我的設計 vs. AI的設計
+  - 我的設計：
+    較為簡單與單純，但很難使數據平均分布
+  - AI的設計：
+    利用了乘以質數、位移與權重，設計出更優秀的Hash function，使我更了解該如何使資料變得更均勻地分散
+- $m$的大小造成的影響：
+  - $m$愈大，能使資料分布得更加散
+  - $m$必須要為質數(如11, 37)，才能消除公因數造成的規律性，將表設計為質數大小可以避免過多的碰撞
+- Int與Sting的分散策略：
+  經整理過後，我發現了優秀的Int與String的分散策略：
+  - Int：
+    混合函數，在Function 2使用的乘以大質數與位移 XOR 混合，以確保輸入整數的每一位都能影響最終的結果。
+  - String：
+    使用權重，在Function 2使用的多項式Hash function，將字元內容與位置信息結合起來進行計算。

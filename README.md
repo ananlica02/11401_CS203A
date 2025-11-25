@@ -1,6 +1,11 @@
 # Work Log
 ---
 
+## 【20251125】Adjust README.md (at Assignment_IV)
+- 調整檔案：README.md (at Assignment_IV)
+  - README.md (at Assignment_IV)：加入分析與反思
+---
+
 ## 【20251125】Write README.md (at Assignment_IV)
 - 調整檔案：README.md (at Assignment_IV)
   - README.md (at Assignment_IV)：撰寫設計Hash Function的思路
