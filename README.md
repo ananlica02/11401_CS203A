@@ -1,6 +1,11 @@
 # Work Log
 ---
 
+## 【20251125】Write README.md (at Assignment_IV)
+- 調整檔案：README.md (at Assignment_IV)
+  - README.md (at Assignment_IV)：撰寫設計Hash Function的思路
+---
+
 ## 【20251123】Add Assignment_IV Describe File
 - 新增檔案：Makefile.bat, Makefile.md, README_template.md, README.md, VSCode.md
 - 備註：
